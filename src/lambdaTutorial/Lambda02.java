@@ -7,7 +7,7 @@ import java.util.*;
 public class Lambda02 {
     public static void main(String[] args) {
 
-        List<Integer> sayi = new ArrayList<>(Arrays.asList(4, 2, 6, 11, -5, 7, 3, 15));
+        List<Integer> sayi = new ArrayList<>(Arrays.asList(4, 2, 6, 11, -5, 7, 3));
         ciftKarePrint(sayi);//16 4 36
         System.out.println("\n   ***   ");
         tekKupBirFazlaPrint(sayi);//1332 -124 344 28 3376
@@ -35,7 +35,7 @@ public class Lambda02 {
 
     }
 
-        // Task : Functional Programming ile listin cift elemanlarinin  karelerini ayni satirda aralarina bosluk bırakarak print ediniz
+    // Task : Functional Programming ile listin cift elemanlarinin  karelerini ayni satirda aralarina bosluk bırakarak print ediniz
 
     public static void ciftKarePrint(List<Integer> sayi) {
         sayi.
@@ -174,7 +174,7 @@ public class Lambda02 {
         //Sorted() methodu tekrarlı kullanılırsa en son kullanılan aktif olur.
     }
 
-        // Task : list'in tek  elemanlarinin kareleri ni buykten kucuge  print ediniz.
+    // Task : list'in tek  elemanlarinin kareleri ni buykten kucuge  print ediniz.
 
     public static void tekKareBkPrint(List<Integer> sayi) {
         sayi.//akıs kaynagı
