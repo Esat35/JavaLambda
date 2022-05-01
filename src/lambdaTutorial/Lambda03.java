@@ -142,7 +142,7 @@ public class Lambda03 {
                 sorted(Comparator.comparing(t -> t.toString().length()).
                         reversed()).
                 //   findFirst();//ilk eleman alındı
-                        limit(3);//limit(a) akısdan cıkan elemanları a parametresine gore ilk a elamanı alır.
+                        limit(1);//limit(a) akısdan cıkan elemanları a parametresine gore ilk a elamanı alır.
 /*
 sonIsim.toArray()--> limit() meth return dan dolayı  stream type olan sonIsim toArray() method ile array type convert edildi
  */
